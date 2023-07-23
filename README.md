@@ -3,41 +3,53 @@
 
 ![WhatsApp Image 2023-03-02 at 21 33 34 (2)](https://user-images.githubusercontent.com/56589435/222661237-54ea5c8c-406a-4d55-ba38-0de4b1aa3cff.jpeg)
 
-Introduction
-In this project, we developed an autonomous robot capable of learning and replicating 5-axis motion. The robot was programmed using the CCS (Custom Computer Services) C compiler, and it demonstrates the ability to record and reproduce complex movements with precision. This GitHub write-up provides an overview of the project, its design, implementation, and usage.
+# Autonomous Robot with PIC Microcontroller: Learning and Replicating 5-Axis Motion
 
-Motivation
-The primary motivation behind this project was to create an intelligent and adaptable robot capable of memorizing human-controlled movements and later executing them autonomously. The robot's ability to learn and replicate intricate motions opens up possibilities for a wide range of applications, including automation, industrial tasks, and interactive entertainment.
+![Robot Image](robot_image.jpg)
 
-Hardware Components
-PIC Microcontroller: We used a PIC microcontroller as the brain of the robot to handle sensor inputs, control the motors, and perform motion calculations.
+## Introduction
 
-5-Axis Robot Arm: The robot arm consists of five motorized joints, each allowing independent movement.
+This project features an autonomous robot that has the remarkable ability to learn and replicate 5-axis motion. Programmed using the CCS (Custom Computer Services) C compiler, this robot showcases advanced capabilities in memorizing intricate movements and reproducing them with precision. This GitHub repository provides an overview of the project, detailing its design, implementation, and practical usage.
 
-Sensors: Various sensors, such as potentiometers and encoders, were integrated into the robot arm to provide feedback on joint positions during motion.
+## Motivation
 
-Display Unit: A display unit (LCD or OLED) was added to visualize the robot's learning progress and playback status.
+The primary motivation behind this project was to create a highly intelligent and adaptable robot that could record human-controlled motions and later execute them autonomously. By developing a system capable of learning and replicating complex movements, the robot opens up a world of possibilities, ranging from industrial automation to interactive entertainment.
 
-Software Implementation
-1. Motion Learning Module
-The robot can be set to the learning mode, where it records the motions performed by a human operator. During this phase, the sensor data from each joint is collected and stored in memory, creating a motion profile.
+## Hardware Components
 
-2. Motion Replication Module
-Once the motion learning is complete, the robot can switch to the replication mode. In this mode, it utilizes the stored motion profile to recreate the exact sequence of movements autonomously.
+1. PIC Microcontroller: Serving as the brain of the robot, the PIC microcontroller is responsible for processing sensor inputs, motor control, and motion calculations.
 
-3. Motion Playback Control
-The robot offers options to adjust playback speed, direction, and looping settings. This flexibility allows for precise and customized motion replication.
+2. 5-Axis Robot Arm: The robot arm consists of five motorized joints, each offering independent movement capabilities.
 
-Usage
-Clone the repository and install the required dependencies.
-Connect the robot arm and sensors to the PIC microcontroller following the pin configurations.
-Upload the CCS C code to the PIC microcontroller using a programmer.
-Power up the robot and start the learning mode by using the appropriate command or button.
-Perform the desired motion with the robot arm while the sensors record the joint positions.
-Stop the learning mode and switch to the replication mode.
-The robot arm will now replicate the learned motion autonomously.
-Utilize playback controls to adjust the robot's motion as desired.
-Conclusion
-Our autonomous robot with PIC microcontroller has demonstrated an impressive capability to learn and replicate 5-axis motion accurately. This project showcases the potential of integrating advanced programming with robotics to achieve intelligent and adaptive automation solutions.
+3. Sensors: Various sensors, including potentiometers and encoders, are integrated into the robot arm to provide feedback on joint positions during motion.
+
+4. Display Unit: The robot features a display unit, such as an LCD or OLED, allowing real-time visualization of the learning progress and playback status.
+
+## Software Implementation
+
+### Motion Learning Module
+The robot can be set into learning mode, during which it records motions performed by a human operator. The sensors gather data from each joint, which is then stored in memory, creating a comprehensive motion profile.
+
+### Motion Replication Module
+After successfully completing the learning phase, the robot switches to replication mode. In this mode, it utilizes the stored motion profile to autonomously replicate the exact sequence of movements.
+
+### Motion Playback Control
+The robot provides a range of options to control the playback, including adjusting speed, direction, and looping settings. This flexibility enables precise and customized motion replication.
+
+## Usage
+
+1. Clone the repository and install the required dependencies.
+2. Connect the robot arm and sensors to the PIC microcontroller following the provided pin configurations.
+3. Upload the CCS C code to the PIC microcontroller using a programmer.
+4. Power up the robot and initiate the learning mode via the appropriate command or button.
+5. Perform the desired motion with the robot arm while the sensors record the joint positions.
+6. Stop the learning mode and switch to the replication mode.
+7. The robot arm will now autonomously replicate the learned motion.
+8. Utilize the playback controls to fine-tune the robot's motion as needed.
+
+## Conclusion
+
+The autonomous robot with a PIC microcontroller showcases an impressive capability to learn and replicate 5-axis motion with exceptional precision. This project demonstrates the potential of combining advanced programming with robotics to achieve intelligent and adaptable automation solutions.
+
 
 
